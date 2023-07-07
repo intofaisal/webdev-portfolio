@@ -20,6 +20,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    cursor: pointer;
 }
 
 .section-title{
@@ -73,16 +74,17 @@ nav a{
 /* header related styles */
 .header-class {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left top;
     padding-top: 20px;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100vh;
 }
 
 .banner-content{
@@ -227,4 +229,40 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-family: Open Sans;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.social-links img{
+    width: 24px;
+    margin-right:24px;
+}
+.social-links{
+    text-align: center;
 }
