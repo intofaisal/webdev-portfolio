@@ -1,4 +1,9 @@
 /* common shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -18,12 +23,29 @@ body{
     padding: 15px 35px;
 }
 
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
 /* navigation styles */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 220px;
 }
 
 
@@ -48,3 +70,53 @@ nav a{
     color: #474747;
 }
 
+
+/* header related styles */
+.header-class {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 20px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-picture{
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* Main Section */
+
+.about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0px;
+    padding: 130px;
+}
