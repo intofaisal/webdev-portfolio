@@ -120,3 +120,31 @@ nav a{
     margin: 130px 0px;
     padding: 130px;
 }
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title{
+    margin-bottom: 30px;
+}
+
+.section-description{
+    margin-bottom: 30px;   
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text
+}
+
+.about-info{
+    text-align: center;
+}
+
+.skills-contain{
+    display: flex;
+}
